@@ -348,7 +348,7 @@ export default function Home() {
               Ready to enhance your security posture? Contact us to schedule a demo or discuss your security needs.
             </p>
             <a
-              href="mailto:contact.deeptrustxai@gmail.com"
+              href="mailto:contact@deeptrustxai.com"
               className="inline-flex items-center gap-3
                         px-6 py-3 rounded-full
                         bg-slate-800/80 backdrop-blur-md
