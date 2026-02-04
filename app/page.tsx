@@ -361,7 +361,7 @@ export default function Home() {
                         hover:-translate-y-0.5"
               >
                 <Mail className="h-5 w-5" />
-                <span>contact.deeptrustxai@gmail.com</span>
+                <span>contact@deeptrustxai.com</span>
             </a>
           </div>
         </div>
