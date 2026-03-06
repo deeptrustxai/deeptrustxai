@@ -2,10 +2,7 @@ import { Navigation } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
 import { ProductCard } from "@/components/product-card"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
-<<<<<<< HEAD
 import { Mail } from "lucide-react"
-=======
->>>>>>> ded74da1d2161f0c4be0089dca47615dd0c76ee8
 import { ArrowRight } from "lucide-react"
 import {
   Search,
@@ -62,19 +59,16 @@ export default function Home() {
       href: "/products/basm",
     },
     {
-<<<<<<< HEAD
       name: "Log-Manthan",
       tagline: "Customised SEIM Solution",
       description: "AI-powered SIEM with real-time monitoring, threat detection, and compliance reporting.",
       icon: Eye,
       href: "/products/log-manthan",
-=======
       name: "AI SIEM & XDR",
       tagline: "Signal Over Noise.",
       description: "AI-driven threat detection, investigation, and response across your ecosystem.",
       icon: Eye,
       href: "/products/siem-xdr",
->>>>>>> ded74da1d2161f0c4be0089dca47615dd0c76ee8
     },
     {
       name: "Honeypot & NDR Sensors",
@@ -358,7 +352,6 @@ export default function Home() {
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Ready to enhance your security posture? Contact us to schedule a demo or discuss your security needs.
             </p>
-<<<<<<< HEAD
             <a
               href="mailto:contact@deeptrustxai.com"
               className="inline-flex items-center gap-3
@@ -375,11 +368,9 @@ export default function Home() {
                 <Mail className="h-5 w-5" />
                 <span>contact@deeptrustxai.com</span>
             </a>
-=======
             <Button size="lg" asChild>
               <a href="mailto:contact@deeptrustxai.com">Contact Us</a>
             </Button>
->>>>>>> ded74da1d2161f0c4be0089dca47615dd0c76ee8
           </div>
         </div>
       </section>

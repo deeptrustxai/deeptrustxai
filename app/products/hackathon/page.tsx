@@ -78,16 +78,13 @@ export default function HackathonPage() {
         </div>
 
         <div className="flex gap-4">
-<<<<<<< HEAD
-          <a
-            href="/flyers/hackathonflyer.pdf"
-            download
-            className="inline-flex items-center px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition"
-          >
-            Download Flyer
-          </a>
-=======
->>>>>>> ded74da1d2161f0c4be0089dca47615dd0c76ee8
+        <a
+          href="/flyers/hackathonflyer.pdf"
+          download
+          className="inline-flex items-center px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition"
+        >
+          Download Flyer
+        </a>
           <Button asChild>
             <Link href="/#contact">Contact Sales</Link>
           </Button>
