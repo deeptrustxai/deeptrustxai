@@ -1,9 +1,9 @@
 import { Navigation } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
-import { Trophy, ArrowLeft } from "lucide-react"
+import { Eye, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 
-export default function HackathonPage() {
+export default function SIEMXDRPage() {
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -18,13 +18,13 @@ export default function HackathonPage() {
 
         <div className="mb-8">
           <div className="h-16 w-16 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
-            <Trophy className="h-8 w-8 text-primary" />
+            <Eye className="h-8 w-8 text-primary" />
           </div>
-          <h1 className="text-4xl font-bold mb-4">Hackathon Hosting Platform</h1>
+          <h1 className="text-4xl font-bold mb-4">AI-Based SIEM & XDR</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Host security-focused innovation events at scale with comprehensive management for challenges, teams, and
-            submissions. Support large participant counts with real-time monitoring dashboards, automated scoring
-            systems, and complete workflow management.
+            Next-generation SIEM and XDR powered by large language models. Correlate events across endpoint, network,
+            and cloud environments while reducing SOC workload through intelligent alert prioritization and natural
+            language investigation capabilities.
           </p>
         </div>
 
@@ -34,60 +34,55 @@ export default function HackathonPage() {
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Enables creation and customization of hackathon challenges based on themes, skills, and difficulty
-                levels
+                Uses AI to correlate security events across endpoints, networks, cloud, and workloads
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Supports hosting hackathons at scale for large numbers of participants and teams
+                Integrates large language models (LLMs) to enable natural language queries for threat investigation
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Provides a centralized dashboard to manage participants, teams, challenges, and timelines
+                Allows analysts to ask questions in plain language instead of writing complex queries
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Allows organizers to publish problem statements, rules, and resources from a single interface
+                Reduces SOC operator fatigue by simplifying investigations and minimizing alert overload
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Supports submission tracking, scoring, and evaluation workflows
+                Applies AI-driven analytics to detect advanced and previously unknown threats
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Enables real-time monitoring of participation and progress during the event
+                Prioritizes alerts based on risk, context, and potential impact
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Designed for technical, cybersecurity, and innovation-focused hackathons
+                Supports faster incident investigation and response through AI-assisted workflows
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary mt-1">•</span>
+              <span className="text-muted-foreground">
+                Improves overall SOC efficiency and response time with intelligent automation
               </span>
             </li>
           </ul>
         </div>
 
         <div className="flex gap-4">
-<<<<<<< HEAD
-          <a
-            href="/flyers/hackathonflyer.pdf"
-            download
-            className="inline-flex items-center px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition"
-          >
-            Download Flyer
-          </a>
-=======
->>>>>>> ded74da1d2161f0c4be0089dca47615dd0c76ee8
           <Button asChild>
             <Link href="/#contact">Contact Sales</Link>
           </Button>
