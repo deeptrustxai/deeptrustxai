@@ -368,9 +368,6 @@ export default function Home() {
                 <Mail className="h-5 w-5" />
                 <span>contact@deeptrustxai.com</span>
             </a>
-            <Button size="lg" asChild>
-              <a href="mailto:contact@deeptrustxai.com">Contact Us</a>
-            </Button>
           </div>
         </div>
       </section>
