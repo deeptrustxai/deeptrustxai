@@ -20,11 +20,13 @@ export default function Page() {
           <div className="h-16 w-16 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
             <Eye className="h-8 w-8 text-primary" />
           </div>
-          <h1 className="text-4xl font-bold mb-4">Log-Mathan: Customised SIEM Solution</h1>
+          <h1 className="text-4xl font-bold mb-4">NirnayakX: Advanced AI-Powered Command & Control Platform</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Fully Customised Next-generation SIEM and XDR powered by large language models. Correlate events across endpoint, network,
-            and cloud environments while reducing SOC workload through intelligent alert prioritization and natural
-            language investigation capabilities.
+            NirnayakX is a next-generation Command & Control (C2) platform designed for real-world cyber operations, adversarial simulations, and advanced security research.  
+            The platform provides AI-assisted workflows, modular architecture, stealth execution, and real-time operator control for complex environments.
+            NirnayakX is built for modern cyber operations where flexibility, stealth, and automation are critical.  
+            It provides an AI-driven interface for operators, supports modular extensions, and enables secure execution across distributed environments.
+            The platform is designed for controlled environments, security testing labs, cyber ranges, and government-approved research programs.
           </p>
         </div>
 
@@ -34,49 +36,56 @@ export default function Page() {
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Fully customised SIEM tailored to your environment, security use cases, and compliance needs
+                NirnayakX is a next-generation AI-powered Command & Control platform built for advanced cybersecurity operations and controlled research environments. 
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Flexible deployment options: on-premises, cloud, and managed SIEM services
+                The platform provides modular architecture, stealth execution, and real-time operator control for complex adversarial scenarios.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                GenAI-powered threat hunting with intelligent correlation, faster investigations
+                It supports in-memory execution, custom loaders, and secure communication channels for high-fidelity cyber simulations.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Advanced AI-driven log enrichment with ability to ingest diverse log sources
+                AI-assisted workflows enable faster tasking, intelligence extraction, and efficient operator decision-making.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Network threat detection sensors for real-time visibility and internal threat discovery
+                Designed for cyber ranges, government labs, and enterprise security teams requiring full control and flexibility.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-muted-foreground">
-                Threat intelligence database built from multiple global intel sources with continuously updated detection logic to stay ahead of evolving threats
+                NirnayakX delivers scalable, secure, and extensible infrastructure for next-generation offensive and defensive security testing.
               </span>
             </li>
           </ul>
         </div>
 
-        <div className="flex gap-4"> 
-          <Button asChild>
+        <div className="flex gap-4">
+        <a
+            href="/flyers/Nirnayakflyer.pdf"
+            download
+            className="inline-flex items-center px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition"
+        > 
+        Download Flyer
+        </a> 
+        <Button asChild>
             <Link href="/#contact">Contact Sales</Link>
-          </Button>
-          <Button variant="outline" asChild>
+        </Button>
+        <Button variant="outline" asChild>
             <Link href="/">Back to Products</Link>
-          </Button>
+        </Button>
         </div>
       </div>
     </div>

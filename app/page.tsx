@@ -64,6 +64,8 @@ export default function Home() {
       description: "AI-powered SIEM with real-time monitoring, threat detection, and compliance reporting.",
       icon: Eye,
       href: "/products/log-manthan",
+    },
+    {
       name: "AI SIEM & XDR",
       tagline: "Signal Over Noise.",
       description: "AI-driven threat detection, investigation, and response across your ecosystem.",
@@ -85,12 +87,20 @@ export default function Home() {
       href: "/products/firewall",
     },
     {
+      name: "NirnayakX C2 Platform",
+      tagline: "AI-Powered Command & Control",
+      description:"Next-generation C2 platform with AI interface, BOF support, proxy tunneling, modular architecture, and operator dashboard.",
+      icon: ShieldCheck,
+      href: "/products/nirnayakx",
+    },
+    {
       name: "AI Quiz Generator",
       tagline: "Smart Assessments. Zero Effort.",
       description: "Automatically generate adaptive quizzes aligned with curriculum and learning goals.",
       icon: Brain,
       href: "/products/quiz-generator",
     },
+  
   ]
 
   return (
