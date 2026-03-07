@@ -71,6 +71,13 @@ export default function Page() {
         </div>
 
         <div className="flex gap-4"> 
+        <a
+            href="/flyers/Log-Manthan.pdf"
+            download
+            className="inline-flex items-center px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition"
+        > 
+        Download Flyer
+        </a> 
           <Button asChild>
             <Link href="/#contact">Contact Sales</Link>
           </Button>
